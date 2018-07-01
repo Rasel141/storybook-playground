@@ -1,2 +1,1 @@
-# storybook-playground
-storybook-playground
+# sh-storybook-playground
