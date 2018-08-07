@@ -6,6 +6,7 @@ import styled from 'styled-components'
 import AppMine from '../src/components/AppMine'
 import AppMineStyledCom from '../src/components/AppMineStyledCom'
 import { MojaButton } from '../src/components/MojaButton'
+import { SearchBar } from '../src/components/SearchBar'
 
 storiesOf('Button', module)
   .add('with text', () => (
@@ -23,4 +24,8 @@ storiesOf('AppMineStyledCom', module).add('default', () => <AppMineStyledCom />)
 
 storiesOf('Mojar Button', module).add('Mojar Button', () => (
   <MojaButton>LOL</MojaButton>
+))
+
+storiesOf('Search Bar', module).add('Search Bar', () => (
+  <SearchBar/>
 ))
