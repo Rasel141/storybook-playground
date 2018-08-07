@@ -4,6 +4,9 @@ import { storiesOf } from "@storybook/react";
 // import { Button, Welcome } from "@storybook/react/demo";
 import AppMine from "../src/components/AppMine";
 import { SearchBar } from "../src/components/inputs/SearchBar";
+import SHCoinBtn from "../src/components/buttons/SHCoinBtn";
+import ToggleBtn from "../src/components/buttons/ToggleBtn";
+import ShoppingCart from "../src/components/buttons/ShoppingCart";
 
 storiesOf("Button", module);
 // .add("with text", () => (
@@ -17,6 +20,21 @@ storiesOf("Button", module);
 //   </Button>
 // ));
 
-storiesOf("AppMine", module).add("default", () => <AppMine />);
+storiesOf("AppMine", module)
+    .add("default", () => <AppMine />);
 
-storiesOf("Input Field", module).add("Search Bar", () => <SearchBar />);
+storiesOf("Inputs", module)
+    .add("Search Bar", () => 
+        <SearchBar />
+    );
+
+storiesOf("Buttons", module)
+    .add("SH Coin Button", () => 
+        <SHCoinBtn />
+    )
+    .add("Toggle Button", () => 
+        <ToggleBtn />
+    )
+    .add("Shopping Cart Button", () => 
+        <ShoppingCart />
+    )

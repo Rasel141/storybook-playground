@@ -43,7 +43,7 @@ const inputFlex = css`
   }
 `;
 
-const SearchBar = () => {
+const searchBar = () => {
   return (
     <div className={inputFlex}>
       <Input
@@ -57,4 +57,4 @@ const SearchBar = () => {
   );
 };
 
-export {SearchBar};
+export {searchBar};
