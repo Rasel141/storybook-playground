@@ -8,7 +8,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import { css } from "emotion";
 
 // Import Custom Style Variable
-import { darkGray, white } from "../components/styles/colors";
+import { darkGray, white } from "../styles/colors";
 
 // Emotion Styles
 const inputField = css`

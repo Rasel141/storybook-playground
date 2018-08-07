@@ -3,7 +3,7 @@ import { storiesOf } from "@storybook/react";
 // import { action } from "@storybook/addon-actions";
 // import { Button, Welcome } from "@storybook/react/demo";
 import AppMine from "../src/components/AppMine";
-import { SearchBar } from "../src/components/SearchBar";
+import { SearchBar } from "../src/components/inputs/SearchBar";
 
 storiesOf("Button", module);
 // .add("with text", () => (
