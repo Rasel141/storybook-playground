@@ -2,11 +2,16 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 // import { action } from "@storybook/addon-actions";
 // import { Button, Welcome } from "@storybook/react/demo";
+
 import AppMine from "../src/components/AppMine";
 import SearchBar from '../src/components/inputs/SearchBar'
+
 import SHCoinBtn from "../src/components/buttons/SHCoinBtn";
 import ToggleBtn from "../src/components/buttons/ToggleBtn";
 import ShoppingCart from "../src/components/buttons/ShoppingCart";
+import BuyBtn from "../src/components/buttons/BuyBtn";
+
+import Stars from "../src/components/stars/Stars";
 
 storiesOf("Button", module);
 // .add("with text", () => (
@@ -38,3 +43,11 @@ storiesOf("Buttons", module)
     .add("Shopping Cart Button", () => 
         <ShoppingCart />
     )
+    .add("Buy Button", () => 
+        <BuyBtn />
+    )
+
+storiesOf("Stars", module)
+    .add("Stars", () => 
+        <Stars />
+    );
