@@ -3,7 +3,7 @@ import { storiesOf } from "@storybook/react";
 // import { action } from "@storybook/addon-actions";
 // import { Button, Welcome } from "@storybook/react/demo";
 
-import AppMine from "../src/components/AppMine";
+// import AppMine from "../src/components/AppMine";
 import SearchBar from "../src/components/inputs/SearchBar";
 
 import SHCoinBtn from "../src/components/buttons/SHCoinBtn";
@@ -27,7 +27,7 @@ storiesOf("Button", module);
 //   </Button>
 // ));
 
-storiesOf("AppMine", module).add("default", () => <AppMine />);
+// storiesOf("AppMine", module).add("default", () => <AppMine />);
 
 storiesOf("Inputs", module).add("Search Bar", () => <SearchBar />);
 
