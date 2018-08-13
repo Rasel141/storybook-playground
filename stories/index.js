@@ -3,7 +3,7 @@ import { storiesOf } from "@storybook/react";
 // import { action } from "@storybook/addon-actions";
 // import { Button, Welcome } from "@storybook/react/demo";
 import AppMine from "../src/components/AppMine";
-import { SearchBar } from "../src/components/inputs/SearchBar";
+import SearchBar from '../src/components/inputs/SearchBar'
 import SHCoinBtn from "../src/components/buttons/SHCoinBtn";
 import ToggleBtn from "../src/components/buttons/ToggleBtn";
 import ShoppingCart from "../src/components/buttons/ShoppingCart";
