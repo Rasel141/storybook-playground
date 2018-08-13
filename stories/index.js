@@ -4,7 +4,7 @@ import { storiesOf } from "@storybook/react";
 // import { Button, Welcome } from "@storybook/react/demo";
 
 import AppMine from "../src/components/AppMine";
-import SearchBar from '../src/components/inputs/SearchBar'
+import SearchBar from "../src/components/inputs/SearchBar";
 
 import SHCoinBtn from "../src/components/buttons/SHCoinBtn";
 import ToggleBtn from "../src/components/buttons/ToggleBtn";
@@ -25,29 +25,14 @@ storiesOf("Button", module);
 //   </Button>
 // ));
 
-storiesOf("AppMine", module)
-    .add("default", () => <AppMine />);
+storiesOf("AppMine", module).add("default", () => <AppMine />);
 
-storiesOf("Inputs", module)
-    .add("Search Bar", () => 
-        <SearchBar />
-    );
+storiesOf("Inputs", module).add("Search Bar", () => <SearchBar />);
 
 storiesOf("Buttons", module)
-    .add("SH Coin Button", () => 
-        <SHCoinBtn />
-    )
-    .add("Toggle Button", () => 
-        <ToggleBtn />
-    )
-    .add("Shopping Cart Button", () => 
-        <ShoppingCart />
-    )
-    .add("Buy Button", () => 
-        <BuyBtn />
-    )
+  .add("SH Coin Button", () => <SHCoinBtn />)
+  .add("Toggle Button", () => <ToggleBtn />)
+  .add("Shopping Cart Button", () => <ShoppingCart />)
+  .add("Buy Button", () => <BuyBtn />);
 
-storiesOf("Stars", module)
-    .add("Stars", () => 
-        <Stars />
-    );
+storiesOf("Stars", module).add("Stars", () => <Stars />);
