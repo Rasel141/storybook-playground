@@ -7,7 +7,7 @@ import { withStyles } from "@material-ui/core/styles";
 const styles = {
   star: {
     fill: '#ffcc33',
-    stroke: "#979797",
+    // stroke: "#979797",
     width: ".9em"
   }
 };

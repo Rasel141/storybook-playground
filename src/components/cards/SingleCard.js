@@ -24,7 +24,8 @@ import { TextAlignCenter } from "../styles/mixin";
 // Material Styled
 const styles = {
   card: {
-    width: "100%",
+    // width: "100%",
+    width: "250px",
     position: "relative"
   },
   media: {
