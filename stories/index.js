@@ -13,6 +13,8 @@ import BuyBtn from "../src/components/buttons/BuyBtn";
 
 import Stars from "../src/components/stars/Stars";
 
+import SingleCard from "../src/components/cards/SingleCard";
+
 storiesOf("Button", module);
 // .add("with text", () => (
 //   <Button onClick={action("clicked")}>Hello Button</Button>
@@ -36,3 +38,5 @@ storiesOf("Buttons", module)
   .add("Buy Button", () => <BuyBtn />);
 
 storiesOf("Stars", module).add("Stars", () => <Stars />);
+
+storiesOf("Card", module).add("Card", () => <SingleCard />);

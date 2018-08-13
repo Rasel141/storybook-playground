@@ -8,3 +8,5 @@ export { ShoppingCart } from "./components/buttons/ShoppingCart";
 export { BuyBtn } from "./components/buttons/BuyBtn";
 
 export { Stars } from "./components/stars/Stars";
+
+export { SingleCard } from "./components/cards/SingleCard";
