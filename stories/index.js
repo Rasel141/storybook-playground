@@ -10,6 +10,7 @@ import SHCoinBtn from "../src/components/buttons/SHCoinBtn";
 import ToggleBtn from "../src/components/buttons/ToggleBtn";
 import ShoppingCart from "../src/components/buttons/ShoppingCart";
 import BuyBtn from "../src/components/buttons/BuyBtn";
+import FollowBtn from "../src/components/buttons/FollowBtn";
 
 import Stars from "../src/components/stars/Stars";
 
@@ -35,7 +36,8 @@ storiesOf("Buttons", module)
   .add("SH Coin Button", () => <SHCoinBtn />)
   .add("Toggle Button", () => <ToggleBtn />)
   .add("Shopping Cart Button", () => <ShoppingCart />)
-  .add("Buy Button", () => <BuyBtn />);
+  .add("Buy Button", () => <BuyBtn />)
+  .add("Follow Button", () => <FollowBtn />)
 
 storiesOf("Stars", module).add("Stars", () => <Stars />);
 

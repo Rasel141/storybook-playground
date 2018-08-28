@@ -6,6 +6,7 @@ export { SHCoinBtn } from "./components/buttons/SHCoinBtn";
 export { ToggleBtn } from "./components/buttons/ToggleBtn";
 export { ShoppingCart } from "./components/buttons/ShoppingCart";
 export { BuyBtn } from "./components/buttons/BuyBtn";
+export { FollowBtn } from "./components/buttons/FollowBtn";
 
 export { Stars } from "./components/stars/Stars";
 
