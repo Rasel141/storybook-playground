@@ -17,6 +17,7 @@ import Stars from "../src/components/stars/Stars";
 import SingleCard from "../src/components/cards/SingleCard";
 
 import ProdcutCollectionChip from "../src/components/chips/ProductCollectionChip";
+import ProductCategoriesChip from "../src/components/chips/ProductCategoriesChip";
 
 storiesOf("Button", module);
 // .add("with text", () => (
@@ -47,3 +48,4 @@ storiesOf("Card", module).add("Card", () => <SingleCard />);
 
 storiesOf("Chips", module)
   .add("Product Collection Chip", () => <ProdcutCollectionChip />)
+  .add("Product Categories Chip", () => <ProductCategoriesChip />)

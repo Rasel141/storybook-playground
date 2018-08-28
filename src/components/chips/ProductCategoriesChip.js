@@ -9,7 +9,7 @@ import {JustFlex} from '../styles/mixin'
 const styles = {
   StyledChip: {
     background: "#fff",
-    borderRadius: "6px",
+    borderRadius: "6.25rem",
     border: "1px solid #4a4a4a",
     cursor: 'pointer',
     margin: '.5rem'
@@ -21,17 +21,17 @@ const selected = css`
   font-weight: bold;
 `
 
-const ProdcutCollectionChip = props => {
+const ProductCategoriesChip = props => {
   const { classes } = props;
 
   return (
     <div className={JustFlex}>
-      <Chip className={`${classes.StyledChip} ${selected}`} label="All Collections" />
-      <Chip className={classes.StyledChip} label="#SrpingLookBook" />
-      <Chip className={classes.StyledChip} label="#SrpingLookBook" />
-      <Chip className={classes.StyledChip} label="#SrpingLookBook" />
+      <Chip className={`${classes.StyledChip} ${selected}`} label="All Categories" />
+      <Chip className={classes.StyledChip} label="Salwar Kameez: Unstiched Kameez" />
+      <Chip className={classes.StyledChip} label="Salwar Kameez: Unstiched Kameez" />
+      <Chip className={classes.StyledChip} label="Salwar Kameez: Unstiched Kameez" />
     </div>
   );
 };
 
-export default withStyles(styles)(ProdcutCollectionChip);
+export default withStyles(styles)(ProductCategoriesChip);

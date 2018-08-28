@@ -13,3 +13,4 @@ export { Stars } from "./components/stars/Stars";
 export { SingleCard } from "./components/cards/SingleCard";
 
 export { ProdcutCollectionChip } from "./components/chips/ProdcutCollectionChip";
+export { ProductCategoriesChip } from "./components/chips/ProductCategoriesChip";
