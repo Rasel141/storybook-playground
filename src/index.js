@@ -11,3 +11,5 @@ export { FollowBtn } from "./components/buttons/FollowBtn";
 export { Stars } from "./components/stars/Stars";
 
 export { SingleCard } from "./components/cards/SingleCard";
+
+export { ProdcutCollectionChip } from "./components/chips/ProdcutCollectionChip";

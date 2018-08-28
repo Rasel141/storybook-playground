@@ -16,6 +16,8 @@ import Stars from "../src/components/stars/Stars";
 
 import SingleCard from "../src/components/cards/SingleCard";
 
+import ProdcutCollectionChip from "../src/components/chips/ProductCollectionChip";
+
 storiesOf("Button", module);
 // .add("with text", () => (
 //   <Button onClick={action("clicked")}>Hello Button</Button>
@@ -42,3 +44,6 @@ storiesOf("Buttons", module)
 storiesOf("Stars", module).add("Stars", () => <Stars />);
 
 storiesOf("Card", module).add("Card", () => <SingleCard />);
+
+storiesOf("Chips", module)
+  .add("Product Collection Chip", () => <ProdcutCollectionChip />)

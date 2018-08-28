@@ -14,4 +14,8 @@ const FullWidth = css`
   width: 100%;
 `;
 
-export { FlexCenter, TextAlignCenter, FullWidth };
+const JustFlex = css`
+  display: flex;
+`
+
+export { FlexCenter, TextAlignCenter, FullWidth, JustFlex };
