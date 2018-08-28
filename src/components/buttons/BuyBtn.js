@@ -1,13 +1,9 @@
 import React from "react";
 
-// Import Material Components
 import Button from "@material-ui/core/Button";
-
-// Import Material Styles
 import { withStyles } from "@material-ui/core/styles";
+import { css } from 'emotion'
 
-// Import Custom Style Variable
-import { FullWidth } from "../styles/mixin";
 
 const styles = {
   StyledButton: {
@@ -31,7 +27,7 @@ const BuyBtn = props => {
   const { classes } = props;
 
   return (
-    <div className={FullWidth}>
+    <div className={css`width: 250px`}>
       <Button className={classes.StyledButton}>Buy</Button>
     </div>
   );
